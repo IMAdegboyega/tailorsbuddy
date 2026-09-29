@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Tailors Buddy",
+    "slug": "tailors-buddy",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "default",
+    "scheme": "tailorsbuddy",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0C0A08",
+    "splash": {
+      "backgroundColor": "#0C0A08",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0C0A08"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0C0A08"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Tailors Buddy uses your photo library so you can add client reference images."
+        }
+      ]
+    ],
+    "newArchEnabled": true
+  }
+}
